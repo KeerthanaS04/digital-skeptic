@@ -1,0 +1,19 @@
+# Core article fetching
+trafilatura>=1.9.0
+newspaper3k>=0.2.8
+beautifulsoup4>=4.12.2
+lxml>=5.2.0
+requests>=2.31.0
+
+# NLP / Analysis
+spacy>=3.7.0
+nltk>=3.9
+
+# LLM Providers
+groq>=0.9.0      # Groq Python SDK (for free Groq API)
+# requests is already listed for OpenAI/Perplexity compatibility
+
+# Optional: for packaging / future extensions
+# pandas
+# textstat
+# tiktoken
